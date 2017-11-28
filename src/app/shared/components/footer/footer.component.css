@@ -1,0 +1,35 @@
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 10rem;
+  left: 0;
+  padding: 1rem;
+  color: white;
+  background-color: white;
+  /*text-align: center;*/
+}
+
+p,a{
+  color:black;
+  font-size: 75%;
+}
+
+@media screen and (min-width: 480px){
+  .footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 10rem;
+  left: 0;
+  padding: 1rem;
+  color: white;
+  background-color: grey;
+  /*text-align: center;*/
+}
+
+p,a{
+  color:lightblue;
+  font-size: 100%;
+}
+}
